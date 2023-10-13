@@ -10,7 +10,7 @@
 
 ### Acknowledgments
 
-Thanks the ACs and the reviewers for their insightful comments, which is very helpful to improve our paper.
+Thanks the reviewers for their insightful comments, which is very helpful to improve our paper.
 
 ### Citation
 ```
