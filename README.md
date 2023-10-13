@@ -1,6 +1,6 @@
 ### LRRU: Long-short Range Recurrent Updating Networks for Depth Completion (ICCV 2023)
 
-  I am sorry for the “coming soon” that can instantly piss off most researchers.
+  I am sorry for the “coming soon” that is the last thing most researchers want to see.
 
   I will clear the code as soon as possible and release it within two months. 
 
