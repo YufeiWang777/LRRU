@@ -2,6 +2,16 @@
 
 [Project Page](https://npucvr.github.io/LRRU/), [arXiv](https://arxiv.org/abs/2310.08956.pdf)
 
+### Environment
+```
+CUDA 11.7
+CUDNN 8.5.0
+torch 1.13.0
+torchvision 0.14.0
+pip install -r LRRU/requirements.txt
+pip3 install opencv-python
+pip3 install opencv-python-headless
+```
 
 
 ### Acknowledgments
