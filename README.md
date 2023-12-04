@@ -2,6 +2,8 @@
 
 [Project Page](https://npucvr.github.io/LRRU/), [arXiv](https://arxiv.org/abs/2310.08956.pdf)
 
+I'll be perfecting this github repository in a week!
+
 ### Environment
 ```
 CUDA 11.7
@@ -43,7 +45,7 @@ Supervised methods：
     <a href="https://github.com/danishnazir/SemAttNet" target="_blank">SemAttNet</a>, 
     <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
     <a href="https://github.com/Kyakaka/DySPN" target="_blank">DySPN</a>, 
-    <a href="https://github.com/AlexSunNik/ReDC" target="_blank">ReDC</a>, 
+    <a href="https://github.com/AlexSunNik/ReDC" target="_blank">ReDC</a>.
 
 Unsupervised methods：
     <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
