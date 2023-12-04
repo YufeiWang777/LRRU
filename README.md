@@ -18,28 +18,38 @@ pip3 install opencv-python-headless
 #### Models on the KITTI validate dataset.
 |   Methods  | Pretrained Model  |   Loss  | RMSE[mm] | MAE[mm] | iRMSE[1/km] | iMAE[1/km] |
 |:----------:|-------------------|:-------:|:--------:|:-------:|:-----------:|:----------:|
-|  LRRU-Mini | [download link]() | L1 + L2 |   806.3  |  210.0  |     2.3     |     0.9    |
-|  LRRU-Tiny | [download link]() | L1 + L2 |   763.8  |  198.9  |     2.1     |     0.8    |
-| LRRU-Small | [download link]() | L1 + L2 |   745.3  |  195.7  |     2.0     |     0.8    |
-|  LRRU-Base | [download link]() | L1 + L2 |   729.5  |  188.8  |     1.9     |     0.8    |
+|  LRRU-Mini | [download link](https://drive.google.com/file/d/18je8eR_EqgtS8IM5dKvr0uy9jBoiMZe6/view?usp=sharing) | L1 + L2 |   806.3  |  210.0  |     2.3     |     0.9    |
+|  LRRU-Tiny | [download link](https://drive.google.com/file/d/1nEoC1eUkvB_eZF-t6V_ykogwo0YXoA2l/view?usp=sharing) | L1 + L2 |   763.8  |  198.9  |     2.1     |     0.8    |
+| LRRU-Small | [download link](https://drive.google.com/file/d/1YtldwyFsTUwmii4H2_fk8z9OiRLdZniI/view?usp=sharing) | L1 + L2 |   745.3  |  195.7  |     2.0     |     0.8    |
+|  LRRU-Base | [download link](https://drive.google.com/file/d/10WTVS7a_5Hjo4f5iNgY0v_KsYuftoDZk/view?usp=sharing) | L1 + L2 |   729.5  |  188.8  |     1.9     |     0.8    |
 
 ### Acknowledgments
 
-Thanks the ACs and the reviewers for their insightful comments, which are very helpful to improve our paper. Thanks for the following open source projects that have effectively promoted the development of the depth completion communities.
+Thanks the ACs and the reviewers for their insightful comments, which are very helpful to improve our paper. Thanks for all open source projects that have effectively promoted the development of the depth completion communities.
 
 Supervised methods：
+    <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
     <a href="https://github.com/zzangjinsun/NLSPN_ECCV20" target="_blank">NLSPN</a>, 
-    <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
     <a href="https://github.com/JUGGHM/PENet_ICRA2021" target="_blank">PENet</a>, 
     <a href="https://github.com/sshan-zhao/ACMNet" target="_blank">ACMNet</a>, 
     <a href="https://github.com/kakaxi314/GuideNet" target="_blank">GuideNet</a>, 
     <a href="https://github.com/USTC-Keyanjie/MDANet_ICRA2021" target="_blank">MDANet</a>, 
     <a href="https://github.com/JiaxiongQ/DeepLiDAR" target="_blank">DeepLiDAR</a>, 
-    <a href="https://github.com/yurimjeon1892/ABCD" target="_blank">ABCD</a>.
+    <a href="https://github.com/anglixjtu/msg_chn_wacv20" target="_blank">MSG-CHN</a>, 
+    <a href="https://github.com/wvangansbeke/Sparse-Depth-Completion" target="_blank">Sparse-Depth-Completion</a>, 
+    <a href="https://github.com/Wenchao-Du/GAENet" target="_blank">GAENet</a>,     
+    <a href="https://github.com/yurimjeon1892/ABCD" target="_blank">ABCD</a>,
+    <a href="https://github.com/danishnazir/SemAttNet" target="_blank">SemAttNet</a>, 
+    <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
+    <a href="https://github.com/Kyakaka/DySPN" target="_blank">DySPN</a>, 
+    <a href="https://github.com/AlexSunNik/ReDC" target="_blank">ReDC</a>, 
 
 Unsupervised methods：
+    <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
     <a href="https://github.com/alexklwong/learning-topology-synthetic-data" target="_blank">ScaffFusion-SSL</a>, 
     <a href="https://github.com/alexklwong/calibrated-backprojection-network" target="_blank">KBNet</a>, 
+    <a href="https://github.com/alexklwong/learning-topology-synthetic-data" target="_blank">ScaffFusion</a>, 
+    <a href="https://github.com/alexklwong/unsupervised-depth-completion-visual-inertial-odometry">VOICED</a>.
 
 If I have accidentally forgotten your work, please contact me to add.
 
