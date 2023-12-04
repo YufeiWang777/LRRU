@@ -1,0 +1,17 @@
+tensorboard
+tensorboardx
+timm
+einops
+matplotlib
+imageio
+scipy
+h5py
+torchshow
+
+Cython
+yacs
+emoji
+wandb
+imageio
+prettytable
+pandas
