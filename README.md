@@ -29,6 +29,7 @@ Thanks the ACs and the reviewers for their insightful comments, which are very h
 
 Supervised methods：
     <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
+    <a href="https://github.com/XinJCheng/CSPN" target="_blank">CSPN</a>, 
     <a href="https://github.com/zzangjinsun/NLSPN_ECCV20" target="_blank">NLSPN</a>, 
     <a href="https://github.com/JUGGHM/PENet_ICRA2021" target="_blank">PENet</a>, 
     <a href="https://github.com/sshan-zhao/ACMNet" target="_blank">ACMNet</a>, 
