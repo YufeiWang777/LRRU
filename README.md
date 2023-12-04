@@ -16,7 +16,16 @@ pip3 install opencv-python-headless
 
 ### Acknowledgments
 
-Thanks the reviewers for their insightful comments, which is very helpful to improve our paper.
+Thanks the ACs and the reviewers for their insightful comments, which are very helpful to improve our paper. Thanks for the following open source projects: 
+    <a href="https://github.com/zzangjinsun/NLSPN_ECCV20" target="_blank">NLSPN</a>, 
+    <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
+    <a href="https://github.com/JUGGHM/PENet_ICRA2021" target="_blank">PENet</a>, 
+    <a href="https://github.com/sshan-zhao/ACMNet" target="_blank">ACMNet</a>, 
+    <a href="https://github.com/kakaxi314/GuideNet" target="_blank">GuideNet</a>, 
+    <a href="https://github.com/USTC-Keyanjie/MDANet_ICRA2021" target="_blank">MDANet</a>, 
+    <a href="https://github.com/JiaxiongQ/DeepLiDAR" target="_blank">DeepLiDAR</a>, 
+    <a href="https://github.com/yurimjeon1892/ABCD" target="_blank">ABCD</a>.
+
 
 ### Citation
 ```
