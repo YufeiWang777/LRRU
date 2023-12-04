@@ -40,7 +40,7 @@ Supervised methods：
     <a href="https://github.com/JiaxiongQ/DeepLiDAR" target="_blank">DeepLiDAR</a>, 
     <a href="https://github.com/anglixjtu/msg_chn_wacv20" target="_blank">MSG-CHN</a>, 
     <a href="https://github.com/wvangansbeke/Sparse-Depth-Completion" target="_blank">Sparse-Depth-Completion</a>, 
-    <a href="https://github.com/Wenchao-Du/GAENet" target="_blank">GAENet</a>,     
+    <a href="https://github.com/Wenchao-Du/GAENet" target="_blank">GAENet</a>,    
     <a href="https://github.com/yurimjeon1892/ABCD" target="_blank">ABCD</a>,
     <a href="https://github.com/danishnazir/SemAttNet" target="_blank">SemAttNet</a>, 
     <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
