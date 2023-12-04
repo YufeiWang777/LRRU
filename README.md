@@ -13,6 +13,15 @@ pip3 install opencv-python
 pip3 install opencv-python-headless
 ```
 
+### Pretrained models
+
+#### Models on the KITTI validate dataset.
+|   Methods  | Pretrained Model  |   Loss  | RMSE[mm] | MAE[mm] | iRMSE[1/km] | iMAE[1/km] |
+|:----------:|-------------------|:-------:|:--------:|:-------:|:-----------:|:----------:|
+|  LRRU-Mini | [download link]() | L1 + L2 |   806.3  |  210.0  |     2.3     |     0.9    |
+|  LRRU-Tiny | [download link]() | L1 + L2 |   763.8  |  198.9  |     2.1     |     0.8    |
+| LRRU-Small | [download link]() | L1 + L2 |   745.3  |  195.7  |     2.0     |     0.8    |
+|  LRRU-Base | [download link]() | L1 + L2 |   729.5  |  188.8  |     1.9     |     0.8    |
 
 ### Acknowledgments
 
