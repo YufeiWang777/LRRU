@@ -27,7 +27,8 @@ pip3 install opencv-python-headless
 
 ### Acknowledgments
 
-Thanks the ACs and the reviewers for their insightful comments, which are very helpful to improve our paper. Thanks for all open source projects that have effectively promoted the development of the depth completion communities.
+Thanks the ACs and the reviewers for their insightful comments, which are very helpful to improve our paper!
+Thanks for all open source projects that have effectively promoted the development of the depth completion communities!
 
 Supervised methods：
     <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
