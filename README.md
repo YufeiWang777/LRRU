@@ -2,13 +2,7 @@
 
 [Project Page](https://npucvr.github.io/LRRU/), [arXiv](https://arxiv.org/abs/2310.08956.pdf)
 
-  I am sorry for the “coming soon” that is the last thing most researchers want to see.
 
-  I will clear the code as soon as possible and release it within two months. 
-
-  Please star and watch the github project to avoid missing the news.
-
-  Thanks for your patience!
 
 ### Acknowledgments
 
