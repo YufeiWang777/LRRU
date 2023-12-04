@@ -16,7 +16,9 @@ pip3 install opencv-python-headless
 
 ### Acknowledgments
 
-Thanks the ACs and the reviewers for their insightful comments, which are very helpful to improve our paper. Thanks for the following open source projects: 
+Thanks the ACs and the reviewers for their insightful comments, which are very helpful to improve our paper. Thanks for the following open source projects that have effectively promoted the development of the depth completion communities.
+
+Supervised methods：
     <a href="https://github.com/zzangjinsun/NLSPN_ECCV20" target="_blank">NLSPN</a>, 
     <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
     <a href="https://github.com/JUGGHM/PENet_ICRA2021" target="_blank">PENet</a>, 
@@ -25,6 +27,13 @@ Thanks the ACs and the reviewers for their insightful comments, which are very h
     <a href="https://github.com/USTC-Keyanjie/MDANet_ICRA2021" target="_blank">MDANet</a>, 
     <a href="https://github.com/JiaxiongQ/DeepLiDAR" target="_blank">DeepLiDAR</a>, 
     <a href="https://github.com/yurimjeon1892/ABCD" target="_blank">ABCD</a>.
+
+Unsupervised methods：
+    <a href="https://github.com/alexklwong/learning-topology-synthetic-data" target="_blank">ScaffFusion-SSL</a>, 
+    <a href="https://github.com/alexklwong/calibrated-backprojection-network" target="_blank">KBNet</a>, 
+
+If I have accidentally forgotten your work, please contact me to add.
+
 
 
 ### Citation
