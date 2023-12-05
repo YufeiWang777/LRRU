@@ -357,3 +357,12 @@ def count_validpoint(x: torch.Tensor):
     mask = x > 0.001
     num_valid = mask.sum()
     return int(num_valid.data.cpu())
+
+def pad_rep(image, ori_size):
+    h, w = image.shape
+    (oh, ow) = ori_size
+    pl = (ow - w) // 2
+    pr = ow - w - pl
+    pt = oh - h
+    image_pad = np.pad(image, pad_width=((pt, 0), (pl, pr)), mode='edge')
+    return image_pad
