@@ -15,6 +15,75 @@ pip3 install opencv-python
 pip3 install opencv-python-headless
 ```
 
+### Dataset
+
+We used two datasets for training and evaluation.
+
+#### KITTI Depth Completion (KITTI DC)
+
+KITTI DC dataset is available at the [KITTI DC Website](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion) and the data structure is:
+
+```
+.
+├── depth_selection
+│    ├── test_depth_completion_anonymous
+│    │    ├── image
+│    │    ├── intrinsics
+│    │    └── velodyne_raw
+│    ├── test_depth_prediction_anonymous
+│    │    ├── image
+│    │    └── intrinsics
+│    └── val_selection_cropped
+│        ├── groundtruth_depth
+│        ├── image
+│        ├── intrinsics
+│        └── velodyne_raw
+├── train
+│    ├── 2011_09_26_drive_0001_sync
+│    │    ├── image_02
+│    │    │     └── data
+│    │    ├── image_03
+│    │    │     └── data
+│    │    ├── oxts
+│    │    │     └── data
+│    │    └── proj_depth
+│    │        ├── groundtruth
+│    │        └── velodyne_raw
+│    └── ...
+└── val
+    ├── 2011_09_26_drive_0002_sync
+    └── ...
+```
+
+
+#### NYU Depth V2 (NYUv2)
+
+We used preprocessed NYUv2 HDF5 dataset provided by [Fangchang Ma](https://github.com/fangchangma/sparse-to-dense).
+
+```bash
+$ cd PATH_TO_DOWNLOAD
+$ wget http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz
+$ tar -xvf nyudepthv2.tar.gz
+```
+After that, you will get a data structure as follows:
+
+```
+nyudepthv2
+├── train
+│    ├── basement_0001a
+│    │    ├── 00001.h5
+│    │    └── ...
+│    ├── basement_0001b
+│    │    ├── 00001.h5
+│    │    └── ...
+│    └── ...
+└── val
+    └── official
+        ├── 00001.h5
+        └── ...
+```
+
+
 ### Pretrained models
 
 #### Models on the KITTI validate dataset.
