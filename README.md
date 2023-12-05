@@ -17,8 +17,6 @@ pip3 install opencv-python-headless
 
 ### Dataset
 
-We used two datasets for training and evaluation.
-
 #### KITTI Depth Completion (KITTI DC)
 
 KITTI DC dataset is available at the [KITTI DC Website](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion) and the data structure is:
@@ -97,15 +95,22 @@ nyudepthv2
 ### Acknowledgments
 
 Thanks the ACs and the reviewers for their insightful comments, which are very helpful to improve our paper!
-Thanks for all open source projects that have effectively promoted the development of the depth completion communities!
+
+We are especially grateful to <a href="https://github.com/zzangjinsun/NLSPN_ECCV20" target="_blank">NLSPN</a>,  for their novel work and the excellent open source code!
+We are appreciative for <a href="https://github.com/kujason/ip_basic" target="_blank">IP_Basic</a>, <a href="https://github.com/kakaxi314/GuideNet" target="_blank">GuideNet</a>, and  <a href="https://github.com/Kyakaka/DySPN" target="_blank">DySPN</a>, which have inspired us in model design.
+
+
+In addition, thanks for all open source projects that have effectively promoted the development of the depth completion communities!
+
+Non-learning methods:
+    <a href="https://github.com/placeforyiming/RAL_Non-Learning_DepthCompletion" target="_blank">RAL_Non-Learning_DepthCompletion</a>, 
+
 
 Supervised methods：
     <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
     <a href="https://github.com/XinJCheng/CSPN" target="_blank">CSPN</a>, 
-    <a href="https://github.com/zzangjinsun/NLSPN_ECCV20" target="_blank">NLSPN</a>, 
     <a href="https://github.com/JUGGHM/PENet_ICRA2021" target="_blank">PENet</a>, 
     <a href="https://github.com/sshan-zhao/ACMNet" target="_blank">ACMNet</a>, 
-    <a href="https://github.com/kakaxi314/GuideNet" target="_blank">GuideNet</a>, 
     <a href="https://github.com/USTC-Keyanjie/MDANet_ICRA2021" target="_blank">MDANet</a>, 
     <a href="https://github.com/JiaxiongQ/DeepLiDAR" target="_blank">DeepLiDAR</a>, 
     <a href="https://github.com/anglixjtu/msg_chn_wacv20" target="_blank">MSG-CHN</a>, 
@@ -114,7 +119,6 @@ Supervised methods：
     <a href="https://github.com/yurimjeon1892/ABCD" target="_blank">ABCD</a>,
     <a href="https://github.com/danishnazir/SemAttNet" target="_blank">SemAttNet</a>, 
     <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
-    <a href="https://github.com/Kyakaka/DySPN" target="_blank">DySPN</a>, 
     <a href="https://github.com/AlexSunNik/ReDC" target="_blank">ReDC</a>.
 
 Unsupervised methods：
