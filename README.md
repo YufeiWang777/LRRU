@@ -101,11 +101,8 @@ We are appreciative for <a href="https://github.com/kujason/ip_basic" target="_b
 
 
 In addition, thanks for all open source projects that have effectively promoted the development of the depth completion communities!
-
 Non-learning methods:
     <a href="https://github.com/placeforyiming/RAL_Non-Learning_DepthCompletion" target="_blank">RAL_Non-Learning_DepthCompletion</a>, 
-
-
 Supervised methods：
     <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
     <a href="https://github.com/XinJCheng/CSPN" target="_blank">CSPN</a>, 
@@ -120,7 +117,6 @@ Supervised methods：
     <a href="https://github.com/danishnazir/SemAttNet" target="_blank">SemAttNet</a>, 
     <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
     <a href="https://github.com/AlexSunNik/ReDC" target="_blank">ReDC</a>.
-
 Unsupervised methods：
     <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
     <a href="https://github.com/alexklwong/learning-topology-synthetic-data" target="_blank">ScaffFusion-SSL</a>, 
