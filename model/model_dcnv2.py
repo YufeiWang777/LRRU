@@ -404,8 +404,7 @@ class Model(nn.Module, ABC):
         if self.args.depth_norm:
             depth_predictions = [i * self.dep_max for i in depth_predictions]
 
-        output = {'an_depth': output, 'ben_depth': depth_predictions, 'jin_depth': output,
-                  'ben_mask': output, 'ben_conf': output, 'jin_conf': output}
+        output = {'results': depth_predictions}
 
         return output
 
