@@ -2,7 +2,7 @@
 
 [Project Page](https://npucvr.github.io/LRRU/), [arXiv](https://arxiv.org/abs/2310.08956.pdf)
 
-I'll be perfecting this github repository in a week!
+# I'll be perfecting this github repository in a week!
 
 ### Environment
 ```
