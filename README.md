@@ -2,8 +2,6 @@
 
 [Project Page](https://npucvr.github.io/LRRU/), [arXiv](https://arxiv.org/abs/2310.08956.pdf)
 
-# I'll be perfecting this github repository in a week!
-
 ### Environment
 ```
 CUDA 11.7
@@ -102,6 +100,23 @@ nyudepthv2
 ### Usage
 
 #### Training
+
+```bash
+
+$ sh train.sh
+
+# train LRRU_Mini model
+# python LRRU/train_apex.py -c train_lrru_mini_kitti.yml
+
+# train LRRU_Tiny model
+# python LRRU/train_apex.py -c train_lrru_tiny_kitti.yml
+
+# train LRRU_Small model
+# python LRRU/train_apex.py -c train_lrru_small_kitti.yml
+
+# train LRRU_Base model
+# python LRRU/train_apex.py -c train_lrru_base_kitti.yml
+```
 
 #### Testing
 
