@@ -27,9 +27,13 @@ Apex can be installed as follows:
 $ cd PATH_TO_INSTALL
 $ git clone https://github.com/NVIDIA/apex
 $ cd apex
-$ git reset --hard 4ef930c1c884fdca5f472ab2ce7cb9b505d26c1a
-$ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./ 
+$ pip install -v --disable-pip-version-check --no-build-isolation --no-cache-dir ./
 ```
+
+#### Deformable Convolution V2 (DCNv2)
+
+Build and install DCN module following [here](https://github.com/CharlesShang/DCNv2).
+
 
 ### Dataset
 
