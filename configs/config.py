@@ -12,7 +12,6 @@ cfg.gpus = (8, )
 cfg.port = 29000
 cfg.num_threads = 0
 cfg.no_multiprocessing = False
-cfg.syncbn = False
 cfg.cudnn_deterministic = False
 cfg.cudnn_benchmark = True
 
