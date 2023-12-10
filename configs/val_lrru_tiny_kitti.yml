@@ -1,1 +1,68 @@
+# Hardware
+seed: 1128
+gpus: (0, )
+port: 29000
+num_threads: 1
+no_multiprocessing: True
+syncbn: False
+cudnn_deterministic: False
+cudnn_benchmark: True
 
+# Dataset
+data_folder: '/home/temp_user/kitti_depth'
+dataset: ['dep', 'gt', 'rgb']
+val: 'select'
+grid_spot: True
+num_sample: 1000
+cut_mask: False
+max_depth: 80.0
+rgb_noise: 0.0
+noise: 0.0
+
+hflip: True
+colorjitter: True
+rotation: True
+resize: False
+normalize: True
+scale_depth: False
+
+val_h: 352
+val_w: 1216
+random_crop_height: 256
+random_crop_width: 1216
+train_bottom_crop: True
+train_random_crop: True
+val_bottom_crop: True
+val_random_crop: True
+test_bottom_crop: True
+test_random_crop: True
+
+# Network
+depth_norm: False
+dkn_residual: True
+summary_name: 'summary'
+
+# Test
+test: True
+#test_option: 'test_completion'
+test_option: 'val'
+test_name: 'ben_depth'
+tta: False
+test_not_random_crop: False
+wandb_id_test: ''
+
+prob: 0.5
+bc: 4
+model: 'model_dcnv2'
+test_dir: './pretrained/LRRU_Tiny'
+test_model: './pretrained/LRRU_Tiny/LRRU_Tiny.pt'
+
+# Summary
+num_summary: 6
+save_test_image: False
+
+# Logs
+vis_step: 1000
+record_by_wandb_online: False
+test_record_by_wandb_online: False
+save_result_only: False
