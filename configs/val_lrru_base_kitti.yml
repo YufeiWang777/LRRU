@@ -4,7 +4,6 @@ gpus: (0, )
 port: 29000
 num_threads: 1
 no_multiprocessing: True
-syncbn: False
 cudnn_deterministic: False
 cudnn_benchmark: True
 
