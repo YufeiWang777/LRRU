@@ -1,7 +1,7 @@
 # Hardware
 seed: 1128
-gpus: (7, )
-port: 29700
+gpus: (0, )
+port: 29000
 num_threads: 1
 no_multiprocessing: True
 syncbn: False
@@ -54,8 +54,8 @@ wandb_id_test: ''
 prob: 1.0
 bc: 2
 model: 'model_dcnv2'
-test_dir: '/data1/wangyufei/LRRU++/wandb/run-20230627_101434-1uxwd4es'
-test_model: '/data1/wangyufei/LRRU++/wandb/run-20230627_101434-1uxwd4es/LRRU_Mini.pt'
+test_dir: './pretrained/LRRU_Mini'
+test_model: './pretrained/LRRU_Mini/LRRU_Mini.pt'
 
 # Summary
 num_summary: 6
