@@ -106,6 +106,8 @@ nyudepthv2
 #### Testing
 
 ```bash
+# download the pretrained model and add it to corresponding path.
+
 $ sh val.sh
 ```
 
