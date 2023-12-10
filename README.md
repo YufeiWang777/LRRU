@@ -33,9 +33,6 @@ $ git reset --hard 4ef930c1c884fdca5f472ab2ce7cb9b505d26c1a
 $ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./ 
 ```
 
-
-
-
 ### Dataset
 
 #### KITTI Depth Completion (KITTI DC)
@@ -100,6 +97,16 @@ nyudepthv2
     └── official
         ├── 00001.h5
         └── ...
+```
+
+### Usage
+
+#### Training
+
+#### Testing
+
+```bash
+$ sh val.sh
 ```
 
 
