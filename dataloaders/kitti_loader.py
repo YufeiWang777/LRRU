@@ -57,7 +57,7 @@ class KittiDepth(data.Dataset):
         dep_np_ip = np.copy(dep_np)
 
         dep_ip = self.ipfill(dep_np_ip, max_depth=100.0,
-                            extrapolate=self.args.extrapolate, blur_type=self.args.blur_type)
+                            extrapolate=True, blur_type='gaussian')
 
         dep_ip_torch = torch.from_numpy(dep_ip)
         dep_ip_torch = dep_ip_torch.to(dtype=torch.float32)
