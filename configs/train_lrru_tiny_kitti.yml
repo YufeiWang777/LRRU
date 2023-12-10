@@ -1,0 +1,79 @@
+# Hardware
+seed: 1128
+gpus: (0, 1)
+port: 29000
+num_threads: 3
+no_multiprocessing: False
+cudnn_deterministic: False
+cudnn_benchmark: True
+
+# Dataset
+data_folder: '/home/temp_user/kitti_depth'
+dataset: ['dep', 'gt', 'rgb']
+val: 'select'
+grid_spot: True
+num_sample: 1000
+cut_mask: False
+max_depth: 80.0
+rgb_noise: 0.0
+noise: 0.0
+
+hflip: True
+colorjitter: True
+rotation: True
+resize: False
+normalize: True
+scale_depth: False
+
+val_h: 352
+val_w: 1216
+random_crop_height: 256
+random_crop_width: 1216
+train_bottom_crop: True
+train_random_crop: True
+val_bottom_crop: True
+val_random_crop: True
+test_bottom_crop: True
+test_random_crop: True
+
+# Network
+bc: 4
+prob: 0.5
+model: 'model_dcnv2'
+depth_norm: False
+dkn_residual: True
+summary_name: 'summary'
+
+# Training
+val_epoch: 39
+log_itr: 1
+start_epoch: 0
+epochs: 45
+batch_size: 16
+
+# Loss
+loss: '1.0*L1+1.0*L2'
+
+# Optimizer
+lr: 1e-3
+optimizer: 'ADAMW'
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-8
+weight_decay: 0.05
+
+# Scheduler
+scheduler: 'lambdaLR'
+decay: (15, 20, 25, 30, 35, 40, 45)
+gamma: (1.0, 0.5, 0.25, 0.125, 0.0625, 0.03125, 0.015625)
+
+# Summary
+num_summary: 6
+
+# Logs
+vis_step: 1000
+record_by_wandb_online: True
+test_record_by_wandb_online: False
+save_result_only: False
+
+
