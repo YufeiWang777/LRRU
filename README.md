@@ -15,6 +15,27 @@ pip3 install opencv-python
 pip3 install opencv-python-headless
 ```
 
+#### Wandb
+
+We used <a href="https://wandb.ai/" target="_blank">WANDB</a> to visualize and track our experiments.
+
+#### NVIDIA Apex
+
+We used NVIDIA Apex for multi-GPU training as <a href="https://github.com/zzangjinsun/NLSPN_ECCV20" target="_blank">NLSPN</a>.
+
+Apex can be installed as follows:
+
+```bash
+$ cd PATH_TO_INSTALL
+$ git clone https://github.com/NVIDIA/apex
+$ cd apex
+$ git reset --hard 4ef930c1c884fdca5f472ab2ce7cb9b505d26c1a
+$ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./ 
+```
+
+
+
+
 ### Dataset
 
 #### KITTI Depth Completion (KITTI DC)
