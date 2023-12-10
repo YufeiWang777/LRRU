@@ -73,34 +73,6 @@ KITTI DC dataset is available at the [KITTI DC Website](http://www.cvlibs.net/da
     └── ...
 ```
 
-
-#### NYU Depth V2 (NYUv2)
-
-We used preprocessed NYUv2 HDF5 dataset provided by [Fangchang Ma](https://github.com/fangchangma/sparse-to-dense).
-
-```bash
-$ cd PATH_TO_DOWNLOAD
-$ wget http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz
-$ tar -xvf nyudepthv2.tar.gz
-```
-After that, you will get a data structure as follows:
-
-```
-nyudepthv2
-├── train
-│    ├── basement_0001a
-│    │    ├── 00001.h5
-│    │    └── ...
-│    ├── basement_0001b
-│    │    ├── 00001.h5
-│    │    └── ...
-│    └── ...
-└── val
-    └── official
-        ├── 00001.h5
-        └── ...
-```
-
 ### Usage
 
 #### Training
@@ -162,8 +134,10 @@ We are appreciative for <a href="https://github.com/kujason/ip_basic" target="_b
 
 
 In addition, thanks for all open source projects that have effectively promoted the development of the depth completion communities!
+
 Non-learning methods:
     <a href="https://github.com/placeforyiming/RAL_Non-Learning_DepthCompletion" target="_blank">RAL_Non-Learning_DepthCompletion</a>, 
+
 Supervised methods：
     <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
     <a href="https://github.com/XinJCheng/CSPN" target="_blank">CSPN</a>, 
@@ -178,6 +152,7 @@ Supervised methods：
     <a href="https://github.com/danishnazir/SemAttNet" target="_blank">SemAttNet</a>, 
     <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank">CompletionFormer</a>, 
     <a href="https://github.com/AlexSunNik/ReDC" target="_blank">ReDC</a>.
+
 Unsupervised methods：
     <a href="https://github.com/fangchangma/self-supervised-depth-completion" target="_blank">S2D</a>, 
     <a href="https://github.com/alexklwong/learning-topology-synthetic-data" target="_blank">ScaffFusion-SSL</a>, 
