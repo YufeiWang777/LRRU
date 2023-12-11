@@ -4,9 +4,9 @@
 
 ### Environment
 ```
-CUDA 11.7
+CUDA 12.0
 CUDNN 8.5.0
-torch 1.19.0
+torch 1.7.1
 torchvision 0.8.0
 pip install -r LRRU/requirements.txt
 pip3 install opencv-python
